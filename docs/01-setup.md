@@ -4,7 +4,12 @@
 
 - 세팅 및 하드 레퍼런스/소프트 레퍼런스 학습
 - 기본 클래스 구조
-- WarriorBaseCharacter(C++)->WarriorHeroCharacter(C++), WarriorHeroController(C++), WarriorBaseGameMode(C++)
+
+WarriorBaseCharacter(C++)
+└─ WarriorHeroCharacter(C++) → BP_HeroCharacter
+WarriorHeroController(C++) → BP_HeroController
+WarriorBaseGameMode(C++) → BP_GameModes
+
 - C++로 뼈대를 만들어두고, 해당 클래스를 상속받아 BP 생성(BP_HeroCharacter,BP_HeroController,BP_GameModes)
 
 ### 핵심
@@ -19,5 +24,10 @@
 
 ### 느낀 점
 
-- Init시 로딩할 것인지, 런타임에서 로딩할 것인지 메모리 누수나 개발 편의성 구조 신경쓸 것.
-- 구현하고 싶은 순서대로 구현하는 것이 아닌 크게 기본 아키텍쳐(상속 구조)를 먼저 구상하고 설계할 것.
+- Init시 로딩할 것인지, 런타임에서 로딩할 것인지에 대한 이슈 고려
+- 기능 단위 즉흥 작성 대신 클래스 계층 우선 설계 습관 필요
+
+### 참고 이미지
+
+![BaseGameMode](./images/BaseGameMode.png)
+![Character](./images/Character.png)

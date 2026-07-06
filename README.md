@@ -16,7 +16,7 @@
 
 ## 🛠 기술 스택
 
-- Unreal Engine 5.x
+- Unreal Engine 5.5.4
 - C++ / Gameplay Ability System
 - Behavior Tree, EQS (Environment Query System)
 
@@ -36,4 +36,4 @@
 
 ## 🔗 자세한 개발 기록
 
-전체 개발 과정과 트러블슈팅 기록은 [DEVLOG.md](./DEVLOG.md) 또는 블로그 링크 참고
+개발 과정 및 트러블슈팅 기록 -> /docs
