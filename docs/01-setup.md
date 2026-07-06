@@ -10,7 +10,7 @@
 - WarriorHeroController (C++) → BP_HeroController
 - WarriorBaseGameMode (C++) → BP_GameModes
 
-- C++로 뼈대를 만들어두고, 해당 클래스를 상속받아 BP 생성(BP_HeroCharacter,BP_HeroController,BP_GameModes)
+>C++로 뼈대를 만들어두고, 해당 클래스를 상속받아 BP 생성(BP_HeroCharacter,BP_HeroController,BP_GameModes)
 
 ### 핵심
 
