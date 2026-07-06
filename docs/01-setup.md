@@ -5,10 +5,10 @@
 - 세팅 및 하드 레퍼런스/소프트 레퍼런스 학습
 - 기본 클래스 구조
 
-WarriorBaseCharacter(C++)
-└─ WarriorHeroCharacter(C++) → BP_HeroCharacter
-WarriorHeroController(C++) → BP_HeroController
-WarriorBaseGameMode(C++) → BP_GameModes
+- WarriorBaseCharacter (C++)
+  - WarriorHeroCharacter (C++) → BP_HeroCharacter
+- WarriorHeroController (C++) → BP_HeroController
+- WarriorBaseGameMode (C++) → BP_GameModes
 
 - C++로 뼈대를 만들어두고, 해당 클래스를 상속받아 BP 생성(BP_HeroCharacter,BP_HeroController,BP_GameModes)
 
