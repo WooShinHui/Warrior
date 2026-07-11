@@ -14,4 +14,6 @@ class WARRIOR_API AWarriorHeroCharacter : public AWarriorBaseCharacter
 {
 	GENERATED_BODY()
 	
+protected:
+	virtual void BeginPlay() override;
 };
