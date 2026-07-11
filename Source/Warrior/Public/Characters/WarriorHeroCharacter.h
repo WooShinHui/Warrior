@@ -29,10 +29,10 @@ private:
 #pragma region Components
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Camera", meta = (AllowPrivateAccess = "true"));
-	USpringArmComponent* CameraBoom;
+	USpringArmComponent* CameraBoom; // 카메라 암 컴포넌트
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Camera", meta = (AllowPrivateAccess = "true"));
-	UCameraComponent* FollowCamera;
+	UCameraComponent* FollowCamera; // 카메라 컴포넌트
 
 #pragma endregion
 
