@@ -1,6 +1,6 @@
-# SETUP
+# Character
 
-### TIL | 2026-07-011 | 캐릭터 생성자 설정
+### TIL | 2026-07-11 | 캐릭터 생성자 설정
 
 - 언리얼 문법
 - 디버그 헬퍼 추가
@@ -16,3 +16,11 @@
 - CreateDefaultSubobject<>는 만들 컴포넌트의 타입을 가져옴 ex) Array<string>
 - 숫자 뒤에 f는 관례적으로 붙일 것. ex) 200.f;
 - ::은 네임스페이스나 클래스에 속한 정적 멤버 접근 ex) TypeScript의 phaser.gameobject 같은
+
+### TIL | 2026-07-12 | 게임 플레이 태그 추가
+
+- MOVE와 LOOK에 대한 게임 플레이 태그 추가
+- C++ 클래스(NONE)으로 생성하며, Build.cs 파일에 AddRange 안에 추가
+- 인풋 태그로 설정하는 것은 타입 안정성 + 오타에 대비하는 것으로 확인
+
+![Character](./images/Character.png)
