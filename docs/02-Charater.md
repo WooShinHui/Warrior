@@ -17,10 +17,26 @@
 - 숫자 뒤에 f는 관례적으로 붙일 것. ex) 200.f;
 - ::은 네임스페이스나 클래스에 속한 정적 멤버 접근 ex) TypeScript의 phaser.gameobject 같은
 
-### TIL | 2026-07-12 | 게임 플레이 태그 추가
+---
+
+### TIL | 2026-07-12 | 게임 플레이 태그 추가 && InputConfig 추가
 
 - MOVE와 LOOK에 대한 게임 플레이 태그 추가
 - C++ 클래스(NONE)으로 생성하며, Build.cs 파일에 AddRange 안에 추가
 - 인풋 태그로 설정하는 것은 타입 안정성 + 오타에 대비하는 것으로 확인
 
-![Character](./images/Character.png)
+- InputConfig 설정으로 에디터 확장성 증가
+- 데이터 에셋 -> InputTag에서 위에 설정한 태그로 연결
+
+### 핵심
+
+- 앞으로 나올 많은 키 설정을 위해 Input Config 조기 설정
+
+### 느낀 점
+
+- 강의 난이도가 높아진다...
+- 과연 이걸 처음부터 짤 수 있을 것인가?
+- 그럼에도 Input=="w"같은 무식한 방법 대신 최적화된 방법을 안 것 같아서 기분이 좋다.
+- UPROPERTY에 대해서도 조금 공부가 필요할 듯.
+
+![Character](./images/DataAssets.png)
