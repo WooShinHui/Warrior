@@ -23,6 +23,7 @@ public:
 };
 
 template<class UserObject, typename CallbackFunc>
+// 인라인 공부
 inline void UWarriorInputComponent::BindNativeInputAction(const UDataAsset_InputConfig* InInputConfig, const FGameplayTag& InInputTag, ETriggerEvent TriggerEvent, UserObject* ContextObject, CallbackFunc Func)
 {
 	checkf(InInputConfig, TEXT("input config data asset."));

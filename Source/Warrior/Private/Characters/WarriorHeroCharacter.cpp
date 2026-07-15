@@ -38,10 +38,10 @@ AWarriorHeroCharacter::AWarriorHeroCharacter()
 
 }
 
-void AWarriorHeroCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
+void AWarriorHeroCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent) // ÀÎÇ² ÄÄÆ÷³ÍÆ® 
 {
 	checkf(InputConfigDataAsset, TEXT("Forgot to assign a valid data asset"));
-	ULocalPlayer* LocalPlayer = GetController<APlayerController>()->GetLocalPlayer();
+	ULocalPlayer* LocalPlayer = GetController<APlayerController>()->GetLocalPlayer(); 
 
 	UEnhancedInputLocalPlayerSubsystem* Subsystem = ULocalPlayer::GetSubsystem<UEnhancedInputLocalPlayerSubsystem>(LocalPlayer);
 
