@@ -39,5 +39,5 @@ public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, meta = (TitleProperty = "InputTag")) // InputTag로 시작하는 태그만 드롭다운 표시
 	TArray<FWarriorInputActionConfig> NativeInputActions; // Details 패널에서 원하는 만큼 액션 추가 가능
 
-	UInputAction* FindNativeInputActionByTag(const FGameplayTag& InInputTag);
+	UInputAction* FindNativeInputActionByTag(const FGameplayTag& InInputTag) const;
 };
