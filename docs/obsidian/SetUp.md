@@ -57,6 +57,6 @@
 
   
 
-![[./Images/BaseGameMode.png]]
+![BaseGameMode](./images/BaseGameMode.png)
 
-![[./Images/Character.png]]
+![Character](./images/Character.png)

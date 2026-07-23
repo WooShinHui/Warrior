@@ -16,4 +16,4 @@
 ---
 전체적으로 인풋에 대한 Tag를 설정하고, 해당 설정들을 UE에서 설정할 수 있는 기본 틀을 잡아주는 클래스!
 
-![[/images/DataAssets.png]]
+![DataAssets](./images/DataAssets.png)

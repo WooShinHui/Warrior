@@ -13,4 +13,4 @@
 - 현재 입력받은 속도가 있다면 추적 시간 0, 릴렉스 상태 false 유지 
 - 없다면 추적 시간을 델타 타임으로 더하고, 델타 타임을 지났다면 릴렉스 상태 돌입
 
-![[/Images/RelaxState.png]]
+![RelaxState](./images/RelaxState.png)

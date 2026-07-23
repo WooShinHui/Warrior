@@ -8,7 +8,7 @@
 		{"id":"514a179eff54d425","type":"file","file":"DataAsset&Input.md","x":-880,"y":-507,"width":400,"height":98},
 		{"id":"34c280b597e7acd7","type":"file","file":"WarriorCharacterAnimInstance.md","x":-1480,"y":-1075,"width":400,"height":111},
 		{"id":"95d89398ee8adce0","type":"file","file":"WarriorHeroController.md","x":-320,"y":-508,"width":400,"height":99},
-		{"id":"7e2a3e41aff955f5","x":-880,"y":-1640,"width":400,"height":400,"type":"file","file":"AbilitySystem.md"}
+		{"id":"7e2a3e41aff955f5","type":"file","file":"AbilitySystem.md","x":-880,"y":-1640,"width":400,"height":400}
 	],
 	"edges":[
 		{"id":"b2b133acfd4039f3","fromNode":"84ae29da23dbeb33","fromSide":"bottom","toNode":"23b7ede1c109ed3d","toSide":"top"},
