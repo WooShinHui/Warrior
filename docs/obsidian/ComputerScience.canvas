@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"id":"b5f7190f0a415303","type":"file","file":"CS & UE5 Internal.md","x":1640,"y":-400,"width":400,"height":400},
+		{"id":"91bc2398744ff40e","x":716,"y":-452,"width":250,"height":60,"type":"text","text":"TArray"},
+		{"id":"5eadc5ffb44898da","x":716,"y":-346,"width":250,"height":60,"type":"text","text":"연속 메모리 (Cache Hit)"},
+		{"id":"4990f01178f2aa95","x":716,"y":-240,"width":250,"height":60,"type":"text","text":"list보다 성능 우수"},
+		{"id":"0be724e4525cb78b","x":716,"y":-140,"width":250,"height":60,"type":"text","text":"인덱싱 접근 불가능->입구부터 순차적 접근"},
+		{"id":"b988b958971b933c","x":120,"y":-452,"width":250,"height":60,"type":"text","text":"Stack & Heap"},
+		{"id":"e198db7e7864e3f8","x":-130,"y":-240,"width":250,"height":60,"type":"text","text":"Stack -> 컴파일 시점에서 사용됨. 함수 종료 시 해제"},
+		{"id":"1595c7393e677e42","x":361,"y":-240,"width":250,"height":60,"type":"text","text":"Heap -> (New/Delete)로 런타임 생성/삭제 "},
+		{"id":"c1e477e84109117d","x":362,"y":-69,"width":250,"height":109,"type":"text","text":"규칙 없이 빈 주소를 찾아 new/delete 하므로 할당/해제 시 오버헤드 증가"},
+		{"id":"4035f919d1a28e6a","x":-130,"y":-88,"width":250,"height":60,"type":"text","text":"주소의 메모리 값만 바꾸면 되기 때문에 오버헤드 적음"},
+		{"id":"fd2bce74e8a1fe5c","x":-689,"y":-444,"width":250,"height":60,"type":"text","text":"CreateDefaultSubobject"},
+		{"id":"37b5d26147970783","x":-689,"y":-278,"width":250,"height":60,"type":"text","text":"생성자 함수에서만 호출(이외 호출 시 크래시)"}
+	],
+	"edges":[
+		{"id":"fffbf70d2ea479ff","fromNode":"91bc2398744ff40e","fromSide":"bottom","toNode":"5eadc5ffb44898da","toSide":"top"},
+		{"id":"17051d1d90d8e428","fromNode":"5eadc5ffb44898da","fromSide":"bottom","toNode":"4990f01178f2aa95","toSide":"top"},
+		{"id":"f41e2c09d992c58a","fromNode":"4990f01178f2aa95","fromSide":"bottom","toNode":"0be724e4525cb78b","toSide":"top"},
+		{"id":"80d7b5cf5298262e","fromNode":"b988b958971b933c","fromSide":"bottom","toNode":"e198db7e7864e3f8","toSide":"top"},
+		{"id":"570f40193b8c654a","fromNode":"b988b958971b933c","fromSide":"bottom","toNode":"1595c7393e677e42","toSide":"top"},
+		{"id":"dfccd83e7ddcd53a","fromNode":"1595c7393e677e42","fromSide":"bottom","toNode":"c1e477e84109117d","toSide":"top"},
+		{"id":"5bae92417a99256f","fromNode":"e198db7e7864e3f8","fromSide":"bottom","toNode":"4035f919d1a28e6a","toSide":"top"},
+		{"id":"3a673b3743420b13","fromNode":"fd2bce74e8a1fe5c","fromSide":"bottom","toNode":"37b5d26147970783","toSide":"top"}
+	]
+}
