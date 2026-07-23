@@ -13,60 +13,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WarriorBaseCharacter.md",
+                "file": "SetUp.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WarriorBaseCharacter"
-            }
-          },
-          {
-            "id": "488f7a857584f5fd",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "그래프 뷰"
-            }
-          },
-          {
-            "id": "008e79c2c4e17614",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Game.canvas",
-                "viewState": {
-                  "x": -412.5345103015434,
-                  "y": -765.5696585365854,
-                  "zoom": -0.4017103758415839
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Game"
+              "title": "SetUp"
             }
           },
           {
             "id": "9800c26b6114bcff",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Game.canvas",
-                "viewState": {
-                  "x": -700,
-                  "y": -904.5,
-                  "zoom": -1.2610564107159188
-                }
+                "file": "AbilitySystem.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Game"
+              "icon": "lucide-file",
+              "title": "AbilitySystem"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -228,32 +197,32 @@
       "bases:새 베이스 생성하기": false
     }
   },
-  "active": "008e79c2c4e17614",
+  "active": "a3a4a690a1198aed",
   "lastOpenFiles": [
-    "WarriorHeroAnimInstance.md",
-    "RelaxState 1.png",
     "Game.canvas",
+    "AbilitySystem.md",
+    "SetUp.md",
+    "WarriorBaseCharacter.md",
+    "WarriorBaseAnimInstances.md",
+    "WarriorHeroAnimInstance.md",
+    "WarriorCharacterAnimInstance.md",
     "DataAsset&Input.md",
+    "WarriorHeroController.md",
+    "WarriorHeroCharacter.md",
+    "Images/plugin.png",
+    "Images/GAS.png",
+    "Images/Gas.png",
+    "Images/WhyGas.png",
+    "RelaxState 1.png",
     "DataAssets 1.png",
     "DataAssets.png",
-    "WarriorCharacterAnimInstance.md",
     "AnimStructure.png",
     "RelaxState.png",
     "Locomotion.png",
-    "WarriorBaseAnimInstances.md",
-    "SetUp.md",
-    "Images/BaseGameMode.png",
-    "Images/Character.png",
-    "WarriorHeroCharacter.md",
-    "WarriorBaseCharacter.md",
     "CS & UE5 Internal.md",
     "ComputerScience.canvas",
-    "AbilitySystem.md",
-    "Images/computer_structure.png",
-    "Images/스크린샷 2026-07-23 194120.png",
     "Images",
     "새 폴더",
-    "WarriorHeroController.md",
     "CharacterInputComponent.md",
     "2026-07-23.md",
     "Excalidraw/Drawing 2026-07-23 10.12.30.excalidraw.md",
