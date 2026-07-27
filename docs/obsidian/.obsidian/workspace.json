@@ -11,10 +11,42 @@
             "id": "a3a4a690a1198aed",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "그래프 뷰"
+              "type": "markdown",
+              "state": {
+                "file": "GameplayAbility.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "GameplayAbility"
+            }
+          },
+          {
+            "id": "b113914f5438c1a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WarriorHeroAnimInstance.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "WarriorHeroAnimInstance"
+            }
+          },
+          {
+            "id": "34c5ac1961a9b7fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TroubleShoot.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "TroubleShoot"
             }
           },
           {
@@ -195,6 +227,16 @@
   },
   "active": "a3a4a690a1198aed",
   "lastOpenFiles": [
+    "SetUp.md",
+    "GameplayAbility.md",
+    "Game.canvas",
+    "ComputerScience.canvas",
+    "WarriorHeroAnimInstance.md",
+    "AbilitySystem.md",
+    "TroubleShoot.md",
+    "WarriorCharacterAnimInstance.md",
+    "WarriorBaseCharacter.md",
+    "WarriorBaseAnimInstances.md",
     "images/WhyGas.png",
     "images/RelaxState.png",
     "images/Locomotion.png",
@@ -206,20 +248,11 @@
     "images/BaseGameMode.png",
     "images/AnimStructure.png",
     "images",
-    "img/WhyGas.png",
     "img",
-    "AbilitySystem.md",
-    "Game.canvas",
-    "SetUp.md",
-    "WarriorBaseAnimInstances.md",
-    "WarriorBaseCharacter.md",
     "WarriorHeroCharacter.md",
     "DataAsset&Input.md",
-    "WarriorHeroAnimInstance.md",
-    "WarriorCharacterAnimInstance.md",
     "WarriorHeroController.md",
     "CS & UE5 Internal.md",
-    "ComputerScience.canvas",
     "Images",
     "새 폴더",
     "CharacterInputComponent.md",
