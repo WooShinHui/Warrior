@@ -35,18 +35,18 @@ private:
 	// prama, region 정의 학습 필요
 #pragma region Components
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Camera", meta = (AllowPrivateAccess = "true"));
-	USpringArmComponent* CameraBoom; // 카메라 암 컴포넌트
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Camera", meta = (AllowPrivateAccess = "true"))
+	USpringArmComponent* CameraBoom = nullptr; // 카메라 암 컴포넌트
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Camera", meta = (AllowPrivateAccess = "true"));
-	UCameraComponent* FollowCamera; // 카메라 컴포넌트
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Camera", meta = (AllowPrivateAccess = "true"))
+	UCameraComponent* FollowCamera = nullptr; // 카메라 컴포넌트
 
 #pragma endregion
 
 #pragma region Inputs
 
-	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "CharacterData", meta = (AllowPrivateAccess = "true"));
-	UDataAsset_InputConfig* InputConfigDataAsset;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "CharacterData", meta = (AllowPrivateAccess = "true"))
+	UDataAsset_InputConfig* InputConfigDataAsset = nullptr;
 
 	void Input_Move(const FInputActionValue& InputActionValue);
 
