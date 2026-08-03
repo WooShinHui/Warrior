@@ -43,7 +43,7 @@ private:
 	UCameraComponent* FollowCamera = nullptr; // 카메라 컴포넌트
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Camera", meta = (AllowPrivateAccess = "true"))
-	UHeroCombatComponent* HeroCombatComponent = nullptr; // 카메라 컴포넌트
+	UHeroCombatComponent* HeroCombatComponent = nullptr; // 전투 컴포넌트
 #pragma endregion
 
 #pragma region Inputs
@@ -57,6 +57,8 @@ private:
 #pragma endregion
 
 public :
-	FORCEINLINE UHeroCombatComponent* GetHeroCombatComponent() const { return HeroCombatComponent; } // 전투 컴포넌트 강제 지정
+	// 외부에서 HeroCombatComponent 포인터를 빠르게 가져오는 Inline Getter 함수
+	// private 변수인 HeroCombatComponent에 대한 접근 제공하되, FORCEINLINE을 사용하여 함수 호출 오버헤드 최소화
+	FORCEINLINE UHeroCombatComponent* GetHeroCombatComponent() const { return HeroCombatComponent; }
 };
 
