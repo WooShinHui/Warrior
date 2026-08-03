@@ -19,7 +19,7 @@ class WARRIOR_API UWarriorCharacterAnimInstance : public UWarriorBaseAnimInstanc
 	
 public:
 	virtual void NativeInitializeAnimation() override; // 애니메이션 인스턴스 초기화 캐릭터,컴포넌트 참조 바인딩
-	virtual void NativeThreadSafeUpdateAnimation(float DeltaSeconds); // 애니메이션 최적화 (워커 스레드 병렬 실행?) NativeUpdateAnimation은 메인 스레드, 주요 API 사용불가
+	virtual void NativeThreadSafeUpdateAnimation(float DeltaSeconds) override; // 애니메이션 최적화 (워커 스레드 병렬 실행?) NativeUpdateAnimation은 메인 스레드, 주요 API 사용불가
 
 protected:
 	UPROPERTY()

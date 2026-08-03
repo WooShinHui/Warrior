@@ -17,7 +17,7 @@ class WARRIOR_API UWarriorHeroAnimInstance : public UWarriorCharacterAnimInstanc
 	
 public:
 	virtual void NativeInitializeAnimation() override; 
-	virtual void NativeThreadSafeUpdateAnimation(float DeltaSeconds);
+	virtual void NativeThreadSafeUpdateAnimation(float DeltaSeconds) override;
 
 protected:
 	// 이 HeroAnimInstances가 할당될 캐릭터
