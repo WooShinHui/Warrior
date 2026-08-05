@@ -4,6 +4,9 @@
 #include "Abilities/GameplayAbility.h"
 #include "WarriorGameplayAbility.generated.h"
 
+class UPawnCombatComponent;
+class UWarriorAbilitySystemComponent;
+
 UENUM(BlueprintType)
 enum class EWarriorAbilityActivitionPolicy : uint8
 {
@@ -39,4 +42,10 @@ protected:
 	// (OnGiven 정책만 OnGiveAbility / EndAbility에서 자동 활성화 및 자동 제거 처리)
 	UPROPERTY(EditDefaultsOnly, Category = "WarriorAbility")
 	EWarriorAbilityActivitionPolicy AbilityActivationPolicy = EWarriorAbilityActivitionPolicy::OnTriggered;
+
+	UFUNCTION(BlueprintPure,Category = "Warrior|Ability")
+	UPawnCombatComponent* GetPawnCombatComponentFromActorInfo() const;
+
+	UFUNCTION(BlueprintPure, Category= "Warrior|Ability")
+	UWarriorAbilitySystemComponent* GetWarriorAbilitySystemComponentFromActorInfo() const;
 };
