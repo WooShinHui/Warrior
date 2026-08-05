@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"9d32c1dd7d637cd3","x":756,"y":-1589,"width":400,"height":400,"type":"file","file":"회고.md"},
+		{"id":"9d32c1dd7d637cd3","type":"file","file":"회고.md","x":756,"y":-1589,"width":400,"height":400},
 		{"id":"84ae29da23dbeb33","type":"file","file":"SetUp.md","x":-320,"y":-1400,"width":400,"height":240},
 		{"id":"23b7ede1c109ed3d","type":"file","file":"WarriorBaseCharacter.md","x":-320,"y":-1080,"width":400,"height":120},
 		{"id":"6b0a1b40c752f2e1","type":"file","file":"WarriorHeroCharacter.md","x":-320,"y":-762,"width":400,"height":108},

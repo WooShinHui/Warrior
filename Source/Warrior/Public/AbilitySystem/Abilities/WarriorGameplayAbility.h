@@ -43,6 +43,8 @@ protected:
 	UPROPERTY(EditDefaultsOnly, Category = "WarriorAbility")
 	EWarriorAbilityActivitionPolicy AbilityActivationPolicy = EWarriorAbilityActivitionPolicy::OnTriggered;
 
+
+	// 블루프린트에서 쉽게 접근하기 위해 작성한 헬퍼 함수들
 	UFUNCTION(BlueprintPure,Category = "Warrior|Ability")
 	UPawnCombatComponent* GetPawnCombatComponentFromActorInfo() const;
 

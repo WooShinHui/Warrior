@@ -63,3 +63,22 @@ BP 자식 클래스
 
 - 위 블루프린트에서 클래스 변수와 소켓 변수를 따로 파두었기 때문에 할당 가능
 - 이후에는 BP_HeroCharacter에서 소켓 할당
+
+
+## 헬퍼 함수 추가
+
+게임에서는 반복적으로 캐릭터나 컨트롤러 등에 접근해야 한다. 그래서 상위 클래스에 헬퍼 함수를 작성해두고, 해당 함수를 블루프린트나 코드에서 호출하여 재사용성을 증가시킨다.
+![helper](./images/helper.png)
+![helper](./images/helper2.png)
+헤더에서는 저렇게 선언하고 cpp에서는 다음과 같이 사용한다.
+
+![TWeakObjectPtr](./images/TWeakObjectPtr.png)
+**TWeakObjectPtr란?**
+
+일반 포인터는 객체가 파괴되었을 때, 포인터 주솟값이 남기 때문에 댕글링 포인터 발생
+TWeakObjectPtr은 객체가 파괴되면 내부 포인터를 스스로 nullptr로 자동 갱신(안전 포인터)
+참조 카운트가 늘지 않기에, 메모리 삭제 용이
+
+
+
+![helper_cpp](./images/helper_cpp.png)

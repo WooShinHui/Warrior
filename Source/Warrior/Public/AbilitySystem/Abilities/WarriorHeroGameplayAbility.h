@@ -18,6 +18,7 @@ class WARRIOR_API UWarriorHeroGameplayAbility : public UWarriorGameplayAbility
 {
 	GENERATED_BODY()
 	
+	// 블루프린트에서 쉽게 접근하기 위해 작성한 헬퍼 함수들
 public:
 	UFUNCTION(BlueprintPure, Category = "Warrior|Ability")
 	AWarriorHeroCharacter* GetHeroCharacterFromActorInfo();

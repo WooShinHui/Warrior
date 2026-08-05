@@ -25,17 +25,14 @@
             "id": "9800c26b6114bcff",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Game.canvas",
-                "viewState": {
-                  "x": 341.5017532094461,
-                  "y": -1525.8409576785689,
-                  "zoom": -1.433595225198815
-                }
+                "file": "GameplayAbility.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Game"
+              "icon": "lucide-file",
+              "title": "GameplayAbility"
             }
           },
           {
@@ -53,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -215,25 +212,26 @@
       "bases:새 베이스 생성하기": false
     }
   },
-  "active": "1a5f69e9622dee29",
+  "active": "9800c26b6114bcff",
   "lastOpenFiles": [
-    "images/viewer.png",
-    "viewer.png",
-    "Pasted image 20260730223651.png",
-    "images/reference.png",
-    "images/Pasted image 20260730223543.png",
-    "Pasted image 20260730223605.png",
-    "Pasted image 20260730223543.png",
+    "images/TWeakObjectPtr.png",
+    "TWeakObjectPtr.png",
+    "Pasted image 20260805221509.png",
+    "images/helper_cpp.png",
+    "helper_cpp.png",
+    "Pasted image 20260805221402.png",
+    "images/helper2.png",
+    "helper2.png",
+    "Pasted image 20260805221149.png",
+    "images/helper.png",
+    "helper.png",
+    "AbilitySystem.md",
     "Game.canvas",
+    "무제.md",
     "하드 레퍼런스 & 소프트 레퍼런스.md",
     "GameplayAbility.md",
-    "images/bg_weapon_3.png",
-    "images/Pasted image 20260728212328.png",
-    "Pasted image 20260728212328.png",
-    "images/bg_weapon_2.png",
     "회고.md",
     "DataAsset&Input.md",
-    "AbilitySystem.md",
     "WarriorHeroAnimInstance.md",
     "SetUp.md",
     "WarriorBaseAnimInstances.md",
