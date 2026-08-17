@@ -22,6 +22,11 @@ public:
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
 	UInputAction* InputAction;
+
+	bool IsValid() const
+	{
+		return InputTag.IsValid() && InputAction;
+	}
 };
 /**
  * 
@@ -40,4 +45,7 @@ public:
 	TArray<FWarriorInputActionConfig> NativeInputActions; // Details 패널에서 원하는 만큼 액션 추가 가능
 
 	UInputAction* FindNativeInputActionByTag(const FGameplayTag& InInputTag) const;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, meta = (TitleProperty = "InputTag"))
+		TArray<FWarriorInputActionConfig> AbilityInputActions;
 };
