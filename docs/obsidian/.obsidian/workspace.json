@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GameplayAbility.md",
+                "file": "회고.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GameplayAbility"
+              "title": "회고"
             }
           },
           {
@@ -41,16 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "하드 레퍼런스 & 소프트 레퍼런스.md",
+                "file": "DataAsset&Input.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "하드 레퍼런스 & 소프트 레퍼런스"
+              "title": "DataAsset&Input"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -70,7 +70,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "파일 탐색기"
@@ -82,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "inputTag",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,7 +105,8 @@
               "title": "북마크"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -212,26 +215,26 @@
       "bases:새 베이스 생성하기": false
     }
   },
-  "active": "9800c26b6114bcff",
+  "active": "1a5f69e9622dee29",
   "lastOpenFiles": [
-    "images/TWeakObjectPtr.png",
-    "TWeakObjectPtr.png",
-    "Pasted image 20260805221509.png",
-    "images/helper_cpp.png",
-    "helper_cpp.png",
-    "Pasted image 20260805221402.png",
-    "images/helper2.png",
-    "helper2.png",
-    "Pasted image 20260805221149.png",
-    "images/helper.png",
-    "helper.png",
-    "AbilitySystem.md",
+    "images/GA_hero_SpawnAxe.png",
+    "GA_hero_SpawnAxe.png",
+    "GA_gameplayAbility.png",
+    "Pasted image 20260819220914.png",
+    "images/DA_inputConfig.png",
+    "DA_inputConfig.png",
+    "Pasted image 20260819220011.png",
+    "images/WarriorGameplayTag.png",
+    "WarriorGameplayTag.png",
+    "Pasted image 20260819215723.png",
+    "images/IA_EquipAxe.png",
     "Game.canvas",
-    "무제.md",
-    "하드 레퍼런스 & 소프트 레퍼런스.md",
-    "GameplayAbility.md",
-    "회고.md",
     "DataAsset&Input.md",
+    "하드 레퍼런스 & 소프트 레퍼런스.md",
+    "회고.md",
+    "GameplayAbility.md",
+    "AbilitySystem.md",
+    "무제.md",
     "WarriorHeroAnimInstance.md",
     "SetUp.md",
     "WarriorBaseAnimInstances.md",
