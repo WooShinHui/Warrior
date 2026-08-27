@@ -27,12 +27,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "회고.md",
+                "file": "CS & UE5 Internal.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "회고"
+              "title": "CS & UE5 Internal"
+            }
+          },
+          {
+            "id": "c42030d8fe12aa4a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AWS Quick 정리본.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AWS Quick 정리본"
             }
           },
           {
@@ -84,7 +98,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "inputTag",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -105,8 +119,7 @@
               "title": "북마크"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -215,8 +228,15 @@
       "bases:새 베이스 생성하기": false
     }
   },
-  "active": "1a5f69e9622dee29",
+  "active": "c42030d8fe12aa4a",
   "lastOpenFiles": [
+    "CS & UE5 Internal.md",
+    "AWS Quick 정리본.md",
+    "ComputerScience.canvas",
+    "회고.md",
+    "하드 레퍼런스 & 소프트 레퍼런스.md",
+    "무제.base",
+    "DataAsset&Input.md",
     "images/GA_hero_SpawnAxe.png",
     "GA_hero_SpawnAxe.png",
     "GA_gameplayAbility.png",
@@ -227,25 +247,18 @@
     "images/WarriorGameplayTag.png",
     "WarriorGameplayTag.png",
     "Pasted image 20260819215723.png",
-    "images/IA_EquipAxe.png",
     "Game.canvas",
-    "DataAsset&Input.md",
-    "하드 레퍼런스 & 소프트 레퍼런스.md",
-    "회고.md",
     "GameplayAbility.md",
     "AbilitySystem.md",
-    "무제.md",
     "WarriorHeroAnimInstance.md",
     "SetUp.md",
     "WarriorBaseAnimInstances.md",
     "WarriorBaseCharacter.md",
     "WarriorHeroController.md",
     "WarriorHeroCharacter.md",
-    "ComputerScience.canvas",
     "WarriorCharacterAnimInstance.md",
     "images",
     "img",
-    "CS & UE5 Internal.md",
     "Images",
     "새 폴더",
     "CharacterInputComponent.md",
@@ -256,7 +269,6 @@
     "Excalidraw/Drawing 2026-07-23 10.03.43.excalidraw.md",
     "Excalidraw/Drawing 2026-07-23 10.02.38.excalidraw.md",
     "Excalidraw/Drawing 2026-07-23 10.02.27.excalidraw.md",
-    "무제.base",
     "무제 1.canvas",
     "무제 2.canvas"
   ]
