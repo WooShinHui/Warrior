@@ -11,14 +11,17 @@
             "id": "b113914f5438c1a4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "회고.md",
-                "mode": "source",
-                "source": false
+                "file": "ComputerScience.canvas",
+                "viewState": {
+                  "x": 455.830985915493,
+                  "y": -930.5239313689756,
+                  "zoom": -1.0101242172737075
+                }
               },
-              "icon": "lucide-file",
-              "title": "회고"
+              "icon": "lucide-layout-dashboard",
+              "title": "ComputerScience"
             }
           },
           {
@@ -63,8 +66,7 @@
               "title": "DataAsset&Input"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -228,12 +230,12 @@
       "bases:새 베이스 생성하기": false
     }
   },
-  "active": "c42030d8fe12aa4a",
+  "active": "b113914f5438c1a4",
   "lastOpenFiles": [
-    "CS & UE5 Internal.md",
     "AWS Quick 정리본.md",
     "ComputerScience.canvas",
     "회고.md",
+    "CS & UE5 Internal.md",
     "하드 레퍼런스 & 소프트 레퍼런스.md",
     "무제.base",
     "DataAsset&Input.md",
