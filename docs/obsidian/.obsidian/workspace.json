@@ -11,17 +11,14 @@
             "id": "b113914f5438c1a4",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "ComputerScience.canvas",
-                "viewState": {
-                  "x": 455.830985915493,
-                  "y": -930.5239313689756,
-                  "zoom": -1.0101242172737075
-                }
+                "file": "GameplayAbility.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "ComputerScience"
+              "icon": "lucide-file",
+              "title": "GameplayAbility"
             }
           },
           {
@@ -66,7 +63,8 @@
               "title": "DataAsset&Input"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -230,15 +228,16 @@
       "bases:새 베이스 생성하기": false
     }
   },
-  "active": "b113914f5438c1a4",
+  "active": "9800c26b6114bcff",
   "lastOpenFiles": [
-    "AWS Quick 정리본.md",
     "ComputerScience.canvas",
-    "회고.md",
     "CS & UE5 Internal.md",
-    "하드 레퍼런스 & 소프트 레퍼런스.md",
-    "무제.base",
     "DataAsset&Input.md",
+    "AWS Quick 정리본.md",
+    "GameplayAbility.md",
+    "하드 레퍼런스 & 소프트 레퍼런스.md",
+    "회고.md",
+    "무제.base",
     "images/GA_hero_SpawnAxe.png",
     "GA_hero_SpawnAxe.png",
     "GA_gameplayAbility.png",
@@ -250,7 +249,6 @@
     "WarriorGameplayTag.png",
     "Pasted image 20260819215723.png",
     "Game.canvas",
-    "GameplayAbility.md",
     "AbilitySystem.md",
     "WarriorHeroAnimInstance.md",
     "SetUp.md",
