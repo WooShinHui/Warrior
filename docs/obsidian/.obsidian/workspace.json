@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -228,12 +228,14 @@
       "bases:새 베이스 생성하기": false
     }
   },
-  "active": "9800c26b6114bcff",
+  "active": "1a5f69e9622dee29",
   "lastOpenFiles": [
-    "ComputerScience.canvas",
-    "CS & UE5 Internal.md",
-    "DataAsset&Input.md",
+    "넥토리얼 면접 대비.md",
+    "nexon.md",
     "AWS Quick 정리본.md",
+    "DataAsset&Input.md",
+    "CS & UE5 Internal.md",
+    "ComputerScience.canvas",
     "GameplayAbility.md",
     "하드 레퍼런스 & 소프트 레퍼런스.md",
     "회고.md",
