@@ -80,5 +80,6 @@ TWeakObjectPtr은 객체가 파괴되면 내부 포인터를 스스로 nullptr�
 참조 카운트가 늘지 않기에, 메모리 삭제 용이
 
 
-
 ![helper_cpp](./images/helper_cpp.png)
+
+InputTag 통해서 GameAbility 활동 늘리고, BP에서 콤보 카운트 생성
