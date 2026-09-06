@@ -23,6 +23,7 @@
 ## 📽 데모 영상
 
 [유튜브/영상 링크]
+[![시연 영상](docs/images/thumbnail.png)](https://www.youtube.com/watch?v=w0JdObCyL9g)
 
 ## 🏗 아키텍처
 
