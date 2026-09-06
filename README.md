@@ -54,10 +54,6 @@
 
 ![클래스 구조](docs/images/architecture_class_tree.png)
 
-### 콤보 시스템 흐름
-
-![콤보 흐름](docs/images/architecture_combo_flow.png)
-
 ## 📁 프로젝트 구조
 
 ```
@@ -76,15 +72,12 @@ Source/Warrior/
 
 개발 과정 및 학습 기록 → `/docs`
 
-| 문서            | 내용               |
-| --------------- | ------------------ |
-| 01-setup.md     | 프로젝트 초기 세팅 |
-| 02-Character.md | 캐릭터 구조 설계   |
+강의 진도 및 CS 보충 개념 → AI 생성 대시보드를 통한 학습
 
 ## 🔗 관련 링크
 
 |               |                                                        |
 | ------------- | ------------------------------------------------------ |
-| 📄 포트폴리오 | [PDF 링크]                                             |
+| 📄 포트폴리오 | [https://wooshinhui.github.io/PortFolio/PortFolio.pdf] |
 | 📧 연락처     | [ewew3069@gmail.com](mailto:ewew3069@gmail.com)        |
 | 🐙 GitHub     | [github.com/WooShinHui](https://github.com/WooShinHui) |
