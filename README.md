@@ -4,7 +4,7 @@
 
 ## 📽 데모 영상
 
-![시연 영상](docs/images/thumbnail.png)(https://www.youtube.com/watch?v=w0JdObCyL9g)
+[![시연 영상](docs/images/thumbnail.png)](https://www.youtube.com/watch?v=w0JdObCyL9g)
 
 ## 🛠 기술 스택
 
