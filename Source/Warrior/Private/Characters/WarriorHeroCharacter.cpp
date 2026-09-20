@@ -43,6 +43,11 @@ AWarriorHeroCharacter::AWarriorHeroCharacter()
 	HeroCombatComponent = CreateDefaultSubobject<UHeroCombatComponent>(TEXT("HeroCombatComponent")); // 전투 컴포넌트
 }
 
+UPawnCombatComponent* AWarriorHeroCharacter::GetPawnCombatComponent() const
+{
+	return HeroCombatComponent;
+}
+
 void AWarriorHeroCharacter::PossessedBy(AController* NewController)
 {
 	Super::PossessedBy(NewController);
