@@ -32,7 +32,7 @@ protected:
 	// Handle              : 어빌리티 인스턴스를 구분하는 고유 ID
 	// ActorInfo           : 이 어빌리티를 소유한 액터(및 ASC)에 대한 정보
 	// ActivationInfo      : 이 어빌리티가 로컬 예측(Predicted)인지 서버 권위(Authoritative)인지에 대한 정보
-	// bReplicateEndAbility: 어빌리티 종료 사실을 네트워크로 리플리케이션할지 여부 ( 알릴건지 말 건지)
+	// bReplicateEndAbility: 어빌리티 종료 사실을 네트워크로 리플리케이션할지 여부 (알릴건지 말 건지)
 	// bWasCancelled       : 정상 종료인지, 중간에 취소(Cancel)되었는지 여부
 	virtual void EndAbility(const FGameplayAbilitySpecHandle Handle, const FGameplayAbilityActorInfo* ActorInfo, const FGameplayAbilityActivationInfo ActivationInfo, bool bReplicateEndAbility, bool bWasCancelled) override;
 
